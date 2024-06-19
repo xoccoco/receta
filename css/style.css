@@ -1,0 +1,167 @@
+body {
+
+    background-color: #f3e5d8;
+  
+    font-family: "outfitr", arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.marco {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor {
+
+    width:60%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.plate img{
+
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1 {
+    margin: 40px 0 40px 0;
+    font-family: "youngserif_r", 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+p {
+    margin: 20px 0 20px 0;
+
+}
+/* 
+.tiempo {
+    border-radius: 10px;
+    padding: 20px;
+
+
+} */
+
+main{
+    padding: 20px;
+}
+
+.lila {
+    background-color: #fff7fc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+h2{
+    font-family: "outfitw", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#583949;
+
+    margin-bottom: 20px;
+
+}
+
+.punt_lila{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.punt_lila li {
+    list-style: inside;
+    padding-left: 20px;
+   
+}
+
+.punt_lila li::marker {
+    color:#583949;
+    
+}
+
+.ingredientes{
+
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px #ddd solid;
+    border-left: 0;
+}
+
+h3{
+    font-family: "youngserif_r", 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: hsla(14, 45%, 36%,1);
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+.ingre_lista{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+.ingre_lista li {
+    list-style:square;
+    padding-left: 20px;
+   
+}
+
+.ingre_lista li::marker {
+    color:hsla(14, 45%, 36%,1);
+    
+}
+/* 
+.instruccion{
+
+    
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px #ddd solid;
+    border-left: 0;
+
+} */
+
+.inst_lista{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+.inst_lista li {
+    list-style:decimal;
+    padding-left: 20px;
+   
+}
+
+.inst_lista li::marker{
+    color:hsla(14, 45%, 36%,1);
+}
+
+.inst_b{
+
+    font-weight: 700;
+
+}
+
+
+
+
+
+

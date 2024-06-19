@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "outfitr";
+    src: url("../font/outfitr.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "outfitw";
+    src: url("../font/outfitw.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "youngserif_r";
+    src: url("../font/youngserif.woff2") format("woff");
+}
